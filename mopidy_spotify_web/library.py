@@ -14,8 +14,8 @@ import requests
 
 import spotipy
 
-from translator import to_mopidy_track
-from translator import to_sauce_uri
+from .translator import to_mopidy_track
+from .translator import to_sauce_uri
 
 logger = logging.getLogger(__name__)
 
